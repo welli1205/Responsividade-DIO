@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+body{
+ margin: 0;
+ font-family: 'Open Sans';
+ 
+}
+
+#cabecalho{
+    background-image: url(../imagens/mobile/Header\ Background.png);
+    max-width: 100%;
+    height: 505px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-repeat: no-repeat;
+}
+#cabecalho section{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#cabecalho section h1{
+    font-family: 'Luckiest Guy' ;
+    color: aliceblue;
+    width: 200px;
+    
+}
+#cabecalho section p{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#cabecalho div{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   margin-top: 25px;
+   
+
+}
+#cabecalho button{
+    width: 327px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 28px;
+}
+#button-1{
+    background: #FFF;
+    color: #23272A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#button-2{
+    height: 52px;
+    background: #23272A;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.cards{
+    display: flex;
+    
+    padding: 40px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+}
+ #section-card1 .img{
+    width: 379px;
+    height: 240px;
+    background-image: url(../imagens/mobile/Section\ Image.png);
+    background-repeat: no-repeat;
+    
+ }
+#section-card2 .img{
+    width: 379px;
+    height: 240px;
+    background-image: url(../imagens/mobile/Section\ Image\ \(1\).png);
+}
+#section-card3 .img{
+    width: 379px;
+    height: 240px;
+    background-image: url(../imagens/mobile/Section\ Image\ \(2\).png);
+}
+#section-card4 .img{
+    width: 379px;
+    height: 240px;
+    background-image: url(../imagens/mobile/Section\ Image\ \(3\).png);
+}
+
+
+
+main div h1{
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+   
+    
+}
+main div p{
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#titulo4{
+    color: #23272A;
+    font-family: Luckiest Guy;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 140px;
+    
+    justify-content: center;
+    align-items: center;
+    background: #23272A;
+}
+#section-card2, #section-card4{
+    background-color: #F6F6F6;
+}
+@media screen and (min-width:720px) {
+    #cabecalho {
+        background-image: url(../imagens/Header\ Background.png);
+        max-width: 100%;
+        max-height: 490px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 0;
+
+       padding: 0;
+    
+        
+    }
+    #cabecalho section {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        width:750px;
+    }
+    #cabecalho section div{
+        display:inline;
+
+    }
+    #cabecalho h1, p{
+        text-align: center;
+    }
+    #cabecalho #button-1{
+        width: 205px;
+    }
+    #cabecalho #button-2{
+        width: 280px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 900px;
+        
+    }
+    #section-card1{
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px; 
+    }
+    #section-card1 .texto{
+        width: 348px;
+        height: 374px;
+       
+
+    }
+    #section-card1 .img{
+        width: 607px;
+        height: 394px;
+        background-image: url(../imagens/Section\ Image.png);
+    }
+    #section-card1 h1{
+        color: #23272A;
+        font-family: Open Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin: 0;
+    }
+    #section-card2{
+        display: flex;
+        width:100%;
+        height: 448px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        flex-shrink: 0;
+    }
+
+    #section-card2 .img{
+        width: 607px;
+        height: 394px;
+        background-image: url(../imagens/Section\ Image2.png);
+    }
+    #section-card2 h1{
+        width: 329px;
+        color: #23272A;
+        font-family: Open Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin: 0;
+    }
+    #section-card2 .texto{
+        width: 351px;
+        height: 212px;
+        flex-shrink: 0;
+    }
+    #section-card3{
+        display: flex;
+        width: 100%;
+        height: 448px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        flex-shrink: 0;
+    }
+    #section-card3 .img{
+        width: 607px;
+        height: 394px;
+        background-image: url(../imagens/Section\ Image3.png);
+    }
+    #section-card3 h1{
+        width: 329px;
+        color: #23272A;
+        font-family: Open Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin: 0;
+    }
+    #section-card3 .texto{
+        width: 351px;
+        height: 234px;
+        flex-shrink: 0;
+    }
+    #section-card4{
+        display: flex;
+        width:100%;
+        padding: 40px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        text-align: center;
+        
+    }
+    #section-card4 h1{
+        color: #23272A;
+        text-align: center;
+        font-family: Luckiest Guy;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 608px;
+        margin: auto;
+    }  
+    #section-card4 p{
+        width: 802px;
+        color: #23272A;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    #section-card4 .img{
+        width: 784px;
+        height: 508px;
+        background-image: url(../imagens/Section\ Image4.png);
+    }
+   
+}
